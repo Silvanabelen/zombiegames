@@ -1,0 +1,16 @@
+/* font-family: 'Raleway', sans-serif; */
+.navbar, footer {
+    background-color: rgba(92,20,64,0.61);
+}
+
+.carousel-item img {
+    max-height: 20rem;
+}
+
+.img-footer{
+    max-height: 8rem;
+}
+
+.logo-nav {
+    max-height: 5rem;
+}
