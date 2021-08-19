@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Juegos de mesa">
-    <meta name="keywords" content="Juegos de mesa, Devir"> <!--Agregar keywords-->
+    <meta name="keywords" content="Juegos de mesa, entretencion"> <!--Agregar keywords, agregar boton de subir y fijar el nav-->
     <meta name="author" content="Silvana Díaz">
     <link rel="icon" type="image/png" href="/assets/img/Favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -18,7 +18,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
-     <div class="container">
+     <div id="Inicio"class="container">
         <a class="navbar-brand" href="#">
             <img src="assets/img/Zombie_Games_03.png" alt="logo-nav" class="logo-nav">
         </a>
@@ -28,16 +28,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto font-weight-bold">
             <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#Inicio">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-            <a class="nav-link" href="#">Sobre nosotros <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#sobre-nosotros">Sobre nosotros <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-            <a class="nav-link" href="#">Destacados <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#juegos-destacados">Destacados <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-            <a class="nav-link" href="#">Contacto <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#contactanos">Contacto <span class="sr-only">(current)</span></a>
             </li>
             </ul>
          </div>
@@ -74,8 +74,8 @@
     </div>
     </header>
     <section>
-     <div class="container">
-        <div>
+     <div class="container py-5">
+        <div id="sobre-nosotros">
             <h2 class="text-center title font-weight-bold">Sobre nosotros</h2>
             <hr>
         </div>
@@ -99,39 +99,42 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col" id="juegos-destacados">
                     <h2 class="text-center title py-1 font-weight-bold">Juegos destacados</h2>
                     <hr>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-4 mb-5">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/img/root-caja.jpg" class="card-img-top" alt="root-caja">
                         <div class="card-body">
                          <h5 class="card-title">Root</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-info">Más información</a>
+                          <p class="card-text">Root es el juego de guerra y aventura asimétrico definitivo, en el que de 2 a 4 intrépidos jugadores se enfrentan por el dominio de un bosque poblado por simpáticas criaturas.</p>
+                          <a href="https://boardgamegeek.com/boardgame/237182/root" target="_blank" class="btn btn-info" data-toggle="tooltip"
+                          data-placement="bottom" title="Presiona para conocer su ranking en la BGG">Más información</a>
                         </div>
                       </div>
                 </div>
                 <div class="col-12 col-md-4 mb-5">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/img/wingspan_caja.png" class="card-img-top" alt="wingspan_caja">
                         <div class="card-body">
                           <h5 class="card-title">Wingspan</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-info">Más información</a>
+                          <p class="card-text">En Wingspan, un juego competitivo de producción y coleccionismo de aves, seréis unos apasionados de las aves que intentan descubrir y atraer a las más interesantes a vuestros aviarios.</p>
+                          <a href="https://boardgamegeek.com/boardgame/266192/wingspan" target="_blank" class="btn btn-info" data-toggle="tooltip"
+                          data-placement="bottom" title="Presiona para conocer su ranking en la BGG">Más información</a>
                         </div>
                       </div>
                 </div>
                 <div class="col-12 col-md-4 mb-5">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/img/marvel-champions.jpg" class="card-img-top" alt="marvel-champions">
                         <div class="card-body">
                           <h5 class="card-title">Marvel Champions</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-info">Más información</a>
+                          <p class="card-text">Marvel Champions, es un juego de cartas cooperativo que nos invita a jugar con los héroes del Universo Marvel en su lucha contra los más terribles y poderosos villanos que pueblan nuestro mundo.</p>
+                          <a href="https://boardgamegeek.com/boardgame/285774/marvel-champions-card-game" target="_blank" class="btn btn-info" data-toggle="tooltip"
+                          data-placement="bottom" title="Presiona para conocer su ranking en la BGG">Más información</a>
                         </div>
                       </div>
                 </div>
@@ -139,9 +142,10 @@
             </div>
         </div>
     </section>
-
+<!--                    <button type="button" id="enviarCorreo" class="btn btn-outline-secondary" data-toggle="tooltip"
+                    data-placement="top" title="Presiona para enviar a tu correo">Enviar por correo</button>-->
     <section>
-     <div class="container py-5">
+     <div class="container py-5" id="contactanos">
         <h2 class="text-center title font-weight-bold">Contáctanos</h2>
         <hr>
         <div data-tf-widget="y5wGIuyW" data-tf-opacity="0" style="width:100%;height:400px;color:#FFFFFF;"></div><script src="//embed.typeform.com/next/embed.js"></script>
@@ -150,16 +154,15 @@
 
     <footer class="container-fluid py-3">
         <div class="row align-items-center">
-              <div class=" col-md-6 text-center">
+              <div class="col-md-6 text-center">
                 <img src="assets/img/Zombie_Games_03.png" alt="logo-footer" class="img-footer">
               </div>
              <div>
-                <div class="col-md-6 text-center text-white">
+                <div class="col-md-6 text-center text-white d-none d-sm-none d-md-block">
                     <div class="d-flex justify-content-between align-items-baseline">
-                      <i class="fab fa-pinterest fa-3x mx-2"></i>
-                      <i class="fab fa-instagram fa-3x mx-2"></i>
-                      <i class="fab fa-twitter fa-3x mx-2"></i>
-                      <i class="fab fa-facebook fa-3x mx-2"></i>
+                      <i class="fab fa-pinterest fa-2x mx-3"></i>
+                      <i class="fab fa-twitter fa-2x mx-3"></i>
+                      <i class="fab fa-facebook fa-2x mx-3"></i>
                     </div>
                 </div>
             </div>
