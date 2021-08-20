@@ -7,7 +7,7 @@ body *{
     font-family: 'Raleway', sans-serif;
 }
 .navbar, footer {
-    background-color: #7C4165;
+    background-color: #a77292;
 
 }
 
@@ -16,7 +16,7 @@ body *{
 }
 
 .img-footer{
-    max-height: 8rem;
+    max-height: 5rem;
 }
 
 .logo-nav {
@@ -25,6 +25,24 @@ body *{
 
 header {
     padding-top: 8rem;
-    background-position: left;
-    background-repeat: no-repeat;
 }
+
+/* boton de subir */
+
+.button-up {
+    width: 3.75rem;
+    height: 3.75rem;
+    background-color: rgb(80, 83, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 7.5rem;
+    right: 3.125rem;
+}
+
+
+
