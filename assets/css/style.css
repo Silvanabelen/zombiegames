@@ -1,6 +1,14 @@
-/* font-family: 'Raleway', sans-serif; */
+body{
+    padding: 0;
+    margin: 0;
+}
+
+body *{
+    font-family: 'Raleway', sans-serif;
+}
 .navbar, footer {
-    background-color: rgba(92,20,64,0.61);
+    background-color: #a77292;
+
 }
 
 .carousel-item img {
@@ -8,9 +16,33 @@
 }
 
 .img-footer{
-    max-height: 8rem;
+    max-height: 5rem;
 }
 
 .logo-nav {
     max-height: 5rem;
 }
+
+header {
+    padding-top: 8rem;
+}
+
+/* boton de subir */
+
+.button-up {
+    width: 3.75rem;
+    height: 3.75rem;
+    background-color: rgb(80, 83, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 7.5rem;
+    right: 3.125rem;
+}
+
+
+
