@@ -17,8 +17,8 @@
     <title>Zombie Games</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-     <div id="Inicio"class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="assets/img/Zombie_Games_03.png" alt="logo-nav" class="logo-nav">
         </a>
@@ -43,8 +43,8 @@
          </div>
      </div>
     </nav>
-    <header>
-    <div class="container my-5">
+    <header id="Inicio">
+    <div class="container">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -74,8 +74,8 @@
     </div>
     </header>
     <section>
-     <div class="container py-5">
-        <div id="sobre-nosotros">
+     <div class="container">
+        <div class="py-4" id="sobre-nosotros">
             <h2 class="text-center title font-weight-bold">Sobre nosotros</h2>
             <hr>
         </div>
@@ -99,8 +99,8 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col" id="juegos-destacados">
-                    <h2 class="text-center title py-1 font-weight-bold">Juegos destacados</h2>
+                <div class="col py-4" id="juegos-destacados">
+                    <h2 class="text-center title font-weight-bold">Juegos destacados</h2>
                     <hr>
                 </div>
             </div>
@@ -109,7 +109,7 @@
                     <div class="card">
                         <img src="assets/img/root-caja.jpg" class="card-img-top" alt="root-caja">
                         <div class="card-body">
-                         <h5 class="card-title">Root</h5>
+                         <h5 class="card-title font-weight-bold">Root</h5>
                           <p class="card-text">Root es el juego de guerra y aventura asimétrico definitivo, en el que de 2 a 4 intrépidos jugadores se enfrentan por el dominio de un bosque poblado por simpáticas criaturas.</p>
                           <a href="https://boardgamegeek.com/boardgame/237182/root" target="_blank" class="btn btn-info" data-toggle="tooltip"
                           data-placement="bottom" title="Presiona para conocer su ranking en la BGG">Más información</a>
@@ -120,7 +120,7 @@
                     <div class="card">
                         <img src="assets/img/wingspan_caja.png" class="card-img-top" alt="wingspan_caja">
                         <div class="card-body">
-                          <h5 class="card-title">Wingspan</h5>
+                          <h5 class="card-title font-weight-bold">Wingspan</h5>
                           <p class="card-text">En Wingspan, un juego competitivo de producción y coleccionismo de aves, seréis unos apasionados de las aves que intentan descubrir y atraer a las más interesantes a vuestros aviarios.</p>
                           <a href="https://boardgamegeek.com/boardgame/266192/wingspan" target="_blank" class="btn btn-info" data-toggle="tooltip"
                           data-placement="bottom" title="Presiona para conocer su ranking en la BGG">Más información</a>
@@ -131,7 +131,7 @@
                     <div class="card">
                         <img src="assets/img/marvel-champions.jpg" class="card-img-top" alt="marvel-champions">
                         <div class="card-body">
-                          <h5 class="card-title">Marvel Champions</h5>
+                          <h5 class="card-title font-weight-bold">Marvel Champions</h5>
                           <p class="card-text">Marvel Champions, es un juego de cartas cooperativo que nos invita a jugar con los héroes del Universo Marvel en su lucha contra los más terribles y poderosos villanos que pueblan nuestro mundo.</p>
                           <a href="https://boardgamegeek.com/boardgame/285774/marvel-champions-card-game" target="_blank" class="btn btn-info" data-toggle="tooltip"
                           data-placement="bottom" title="Presiona para conocer su ranking en la BGG">Más información</a>
@@ -143,7 +143,7 @@
         </div>
     </section>
     <section>
-     <div class="container py-5" id="contactanos">
+     <div class="container py-4" id="contactanos">
         <h2 class="text-center title font-weight-bold">Contáctanos</h2>
         <hr>
         <div data-tf-widget="y5wGIuyW" data-tf-opacity="0" style="width:100%;height:400px;color:#FFFFFF;"></div><script src="//embed.typeform.com/next/embed.js"></script>
@@ -156,11 +156,19 @@
                 <img src="assets/img/Zombie_Games_03.png" alt="logo-footer" class="img-footer">
               </div>
              <div>
-                <div class="col-md-6 text-center text-white d-none d-sm-none d-md-block">
+                <div class="col-md-6 text-center float-right text-white d-none d-sm-none d-md-block">
                     <div class="d-flex justify-content-between align-items-baseline">
-                      <i class="fab fa-pinterest fa-2x mx-3"></i>
-                      <i class="fab fa-twitter fa-2x mx-3"></i>
-                      <i class="fab fa-facebook fa-2x mx-3"></i>
+                      <i class="fab fa-facebook fa-2x mx-3" data-toggle="tooltip"
+                      data-placement="top" title="Facebook"></i>
+                      <i class="fab fa-github-alt fa-2x mx-3" data-toggle="tooltip"
+                      data-placement="top" title="Github"></i>
+                      <i class="fab fa-linkedin-in fa-2x mx-3" data-toggle="tooltip"
+                      data-placement="top" title="LinkedIn"></i>
+                      <i class="fab fa-instagram fa-2x mx-3" data-toggle="tooltip"
+                      data-placement="top" title="Instagram"></i>
+                      <i class="fab fa-twitch fa-2x mx-3" data-toggle="tooltip"
+                      data-placement="top" title="Twitch"></i>
+
                     </div>
                 </div>
             </div>
