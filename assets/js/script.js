@@ -16,6 +16,7 @@ $(function(){
  $('[data-toggle="popover"]').popover()
  
  $('[data-toggle="tooltip"]').tooltip()
+ 
  $(document).ready(function(){
 
 	$('.button-up').click(function(){
@@ -23,6 +24,8 @@ $(function(){
 			scrollTop: '0px'
 		}, 300);
 	});
+
+/* boton de subir */
 
 	$(window).scroll(function(){
 		if( $(this).scrollTop() > 0 ){

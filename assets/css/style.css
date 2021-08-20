@@ -32,7 +32,7 @@ header {
 .button-up {
     width: 3.75rem;
     height: 3.75rem;
-    background-color: rgb(80, 83, 255);
+    background-color: rgb(56, 163, 167);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +43,5 @@ header {
     bottom: 7.5rem;
     right: 3.125rem;
 }
-
 
 
